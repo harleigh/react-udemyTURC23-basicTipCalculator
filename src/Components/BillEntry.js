@@ -1,4 +1,4 @@
-export function BillEntry({ billAmount, setBillAmount }) {
+export function BillEntry({ setBillAmount }) {
   //regular expression for a floating point number with exactly
   //two numbers past the decimal
   const floatRegExExpr = /^([0-9]+([.][0-9]{2})?|[.][0-9]{2})$/;

@@ -1,7 +1,8 @@
-export function BillDisplay() {
+export function BillDisplay({ billAmount }) {
   return (
-    <div className="billDisplay">
-      Here is where the bill and tip info will display to user
-    </div>
+    <>
+      <label>Total Amount: </label>
+      <span>{"$" + billAmount}</span>
+    </>
   );
 }

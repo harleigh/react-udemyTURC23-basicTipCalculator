@@ -1,0 +1,28 @@
+.mainApp {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  max-width: 30%;
+}
+.billEntry,
+.billDisplay {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 20px;
+}
+
+label {
+  flex: 2;
+}
+input {
+  flex: 1;
+}
+div.container {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 5px;
+}
+div.container label {
+  text-align: right;
+}
